@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | The Gym Company</title> <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+</head>
+
+<body>
+   <meta name="description" content="Contact The Gym Company head office or find your nearest club. Twenty locations nationwide.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="logo" href="index.html">
+      <span class="logo-mark">TGC</span>
+      <span class="logo-text">
+        <strong>The Gym Company</strong>
+        <span>No frills. Just value.</span>
+      </span>
+    </a>
+    <input type="checkbox" id="navSwitch" class="nav-switch">
+    <label for="navSwitch" class="nav-toggle" aria-label="Toggle menu">
+      <span></span>
+    </label>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="join.html">Join Now</a></li>
+        <li><a href="enquiry.html">Enquiry</a></li>
+        <li><a href="contact.html" aria-current="page">Contact Us</a></li>
+        <li><a class="btn btn-primary btn-nav" href="join.html">Join for R199/m</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow">Contact Us</span>
+      <h1>We are here to help.</h1>
+      <p class="lead">Reach our head office, find your nearest club or send a message.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="grid grid-3">
+        <article class="card contact-card">
+          <span class="icon-badge">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          </span>
+          <h3>Call us</h3>
+          <p>Speak to a consultant during office hours.</p>
+          <a href="tel:+27100000000">010 000 0000</a>
+        </article>
+        <article class="card contact-card">
+          <span class="icon-badge">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </span>
+          <h3>Email us</h3>
+          <p>We reply to every message within one working day.</p>
+          <a href="mailto:hello@thegymcompany.co.za">hello@thegymcompany.co.za</a>
+        </article>
+        <article class="card contact-card">
+          <span class="icon-badge">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </span>
+          <h3>Visit us</h3>
+          <p>Our head office is based in Fourways, Johannesburg.</p>
+          <span>Fourways, Gauteng, South Africa</span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Club locator</span>
+        <h2>Find a club near you.</h2>
+        <p class="lead">Ten of our most popular branches are listed below. All twenty clubs are open 24 hours to members.</p>
+      </div>
+
+      <div class="grid grid-3">
+        <article class="card club-card">
+          <h3>Fourways</h3>
+          <p>Fourways Crossing Shopping Centre, Johannesburg</p>
+          <span class="club-meta">Gauteng</span>
+        </article>
+        <article class="card club-card">
+          <h3>Sandton</h3>
+          <p>Katherine Street, Sandton CBD, Johannesburg</p>
+          <span class="club-meta">Gauteng</span>
+        </article>
+        <article class="card club-card">
+          <h3>Rosebank</h3>
+          <p>Bath Avenue, Rosebank, Johannesburg</p>
+          <span class="club-meta">Gauteng</span>
+        </article>
+        <article class="card club-card">
+          <h3>Pretoria East</h3>
+          <p>Atterbury Road, Pretoria East</p>
+          <span class="club-meta">Gauteng</span>
+        </article>
+        <article class="card club-card">
+          <h3>Centurion</h3>
+          <p>Centurion Mall precinct, Centurion</p>
+          <span class="club-meta">Gauteng</span>
+        </article>
+        <article class="card club-card">
+          <h3>Umhlanga</h3>
+          <p>Umhlanga Ridge, Durban</p>
+          <span class="club-meta">KwaZulu-Natal</span>
+        </article>
+        <article class="card club-card">
+          <h3>Durban North</h3>
+          <p>Broadway, Durban North</p>
+          <span class="club-meta">KwaZulu-Natal</span>
+        </article>
+        <article class="card club-card">
+          <h3>Cape Town CBD</h3>
+          <p>Long Street, Cape Town</p>
+          <span class="club-meta">Western Cape</span>
+        </article>
+        <article class="card club-card">
+          <h3>Bellville</h3>
+          <p>Voortrekker Road, Bellville</p>
+          <span class="club-meta">Western Cape</span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container split">
+      <div>
+        <span class="eyebrow">Head office</span>
+        <h2>Come and see us.</h2>
+        <p>Our head office handles membership queries, corporate wellness enquiries, billing and general feedback. If you would like to visit in person, please call ahead so we can make sure the right person is available.</p>
+        <ul class="contact-list">
+          <li>
+            <strong>Address</strong>
+            <span>Fourways, Johannesburg, Gauteng, South Africa</span>
+          </li>
+          <li>
+            <strong>Phone</strong>
+            <a href="tel:+27100000000">010 000 0000</a>
+          </li>
+          <li>
+            <strong>Email</strong>
+            <a href="mailto:hello@thegymcompany.co.za">hello@thegymcompany.co.za</a>
+          </li>
+          <li>
+            <strong>Office hours</strong>
+            <span>Monday to Friday, 08:00 to 17:00</span>
+          </li>
+        </ul>
+      </div>
+      <div class="media-frame">
+        <img src="https://images.unsplash.com/photo-1540497077202-7c8a3999166f?auto=format&fit=crop&w=1200&q=80" alt="The Gym Company head office and reception">
+      </div>
+    </div>
+  </section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Find us</span>
+      <h2>Club locations</h2>
+      <p class="lead">Click any marker to see the club name and address.</p>
+    </div>
+    <div id="clubMap" class="map-container"></div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <a class="logo" href="index.html">
+        <span class="logo-mark">TGC</span>
+        <span class="logo-text"><strong>The Gym Company</strong><span>No frills. Just value.</span></span>
+      </a>
+      <p class="footer-blurb">Making health and fitness accessible to every South African since 1997. Twenty clubs nationwide, open 24 hours.</p>
+    </div>
+    <div>
+      <h3>Explore</h3>
+      <ul class="footer-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="join.html">Join Now</a></li>
+        <li><a href="enquiry.html">Enquiry</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>Get in touch</h3>
+      <ul class="footer-contact">
+        <li>Head Office, Fourways, Johannesburg</li>
+        <li><a href="tel:+27100000000">010 000 0000</a></li>
+        <li><a href="mailto:hello@thegymcompany.co.za">hello@thegymcompany.co.za</a></li>
+        <li>Mon to Fri, 08:00 to 17:00</li>
+      </ul>
+    </div>
+    <div>
+      <h3>Opening hours</h3>
+      <ul class="footer-contact">
+        <li>Members: 24 hours, 7 days</li>
+        <li>Staffed reception: 06:00 to 20:00</li>
+        <li>Public holidays: 08:00 to 14:00</li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container footer-bottom-inner">
+      <p>&copy; 2025 The Gym Company (Pty) Ltd. All rights reserved.</p>
+      <ul class="legal-links">
+        <li><a href="#">Privacy Notice</a></li>
+        <li><a href="#">Terms and Conditions</a></li>
+      </ul>
+    </div>
+  </div>
+</footer> 
+<script src="/js/contact.js"></script>
+</body>
+</html>
